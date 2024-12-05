@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvConfiguracoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configurações"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="48dp" />
+
+    <!-- Botão Alterar Senha -->
+    <Button
+        android:id="@+id/btAlterarSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alterar Senha"
+        android:textSize="18sp"
+        android:backgroundTint="#6200EE"
+        android:textColor="#000000"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <!-- Botão Notificações -->
+    <Button
+        android:id="@+id/btNotificacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Configurar Notificações"
+        android:textSize="18sp"
+        android:backgroundTint="#03DAC5"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+    <!-- Botão Privacidade -->
+    <Button
+        android:id="@+id/btPrivacidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Privacidade"
+        android:textSize="18sp"
+        android:backgroundTint="#FF5722"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp" />
+
+</LinearLayout>

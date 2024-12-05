@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f1f1f1">
+
+    <!-- Título CADASTRE-SE -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CADASTRE-SE"
+        android:textSize="36sp"
+        android:textColor="#4A90E2"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <!-- Nome -->
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="32dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/txtCADNome"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Digite seu nome"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Campo para digitar o nome" />
+
+    <!-- E-mail -->
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/txtCADEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="10dp"
+        android:hint="Digite seu e-mail"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Campo para digitar o e-mail"
+        android:inputType="textEmailAddress"
+        android:autofillHints="emailAddress" />
+
+    <!-- CPF -->
+    <TextView
+        android:id="@+id/tvCpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CPF"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/txtCADCpf"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="10dp"
+        android:hint="Digite seu CPF"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Campo para digitar o CPF"/>
+
+    <!-- Senha -->
+    <TextView
+        android:id="@+id/tvSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/txtCADSenha"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="10dp"
+        android:hint="Digite sua senha"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Campo para digitar a senha"
+        android:inputType="textPassword" />
+
+    <!-- Confirmação de Senha -->
+    <TextView
+        android:id="@+id/tvSenha2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirme a Senha"
+        android:textSize="20sp"
+        android:textColor="#333333"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/txtCADSenha2"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="10dp"
+        android:hint="Confirme sua senha"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:importantForAccessibility="yes"
+        android:contentDescription="Campo para confirmar a senha"
+        android:inputType="textPassword" />
+
+    <!-- Botão de Salvar -->
+    <Button
+        android:id="@+id/btCADSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Salvar Dados"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:backgroundTint="#4A90E2"
+        android:layout_marginTop="30dp"
+
+        android:importantForAccessibility="yes"
+        android:contentDescription="Botão para salvar os dados de cadastro"/>
+
+</LinearLayout>

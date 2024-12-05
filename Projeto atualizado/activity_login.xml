@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#D30F45">
+
+    <!-- Imagem da Empresa -->
+    <ImageView
+        android:id="@+id/companyLogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/avano"
+        android:contentDescription="Logo da empresa" />
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tela de Login"
+        android:textSize="24sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#FFF"/>
+
+    <!-- Campo de E-mail -->
+    <TextView
+        android:id="@+id/emailLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="32dp"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        android:hint="Digite seu e-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+
+    <!-- Campo de Senha -->
+    <TextView
+        android:id="@+id/passwordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="32dp"
+        android:textColor="#FFF"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="8dp"
+        android:hint="Digite sua senha"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:background="#FFFFFF"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+    <!-- Botão de Login -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Entrar"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"
+        android:background="#52514F"
+        android:elevation="4dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="30dp" />
+
+    <!-- Esqueci a Senha -->
+    <TextView
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esqueceu sua senha?"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14sp"
+        android:layout_marginTop="15dp"
+        android:gravity="center" />
+
+    <!-- Criar Conta -->
+    <TextView
+        android:id="@+id/createAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:gravity="center"
+        android:text="Criar minha conta!"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14sp"
+ />
+
+</LinearLayout>
